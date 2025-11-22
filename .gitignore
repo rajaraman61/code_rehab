@@ -1,3 +1,4 @@
+########## GENERAL ##########
 # Prerequisites
 *.d
 
@@ -16,7 +17,7 @@
 *.dylib
 *.dll
 
-# Fortran module files
+# Fortran modules
 *.mod
 *.smod
 
@@ -30,3 +31,67 @@
 *.exe
 *.out
 *.app
+
+########## VISUAL STUDIO ##########
+
+## Ignore the entire build output directory (like x64/Debug, x64/Release)
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+ARM/
+ARM64/
+
+## Visual Studio cache, temp, backup
+.vs/
+*.vscode
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Database files for IntelliSense
+*.VC.db
+*.VC.opendb
+
+## CMake generated folders (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+########## LOG FILES ##########
+*.tlog
+*.log
+*.ilk
+*.pdb
+*.idb
+
+########## OTHER TEMP FILES ##########
+*.ipch
+*.cache
+*.tmp
+*.log
+
+########## ADDITIONAL COMPILER OUTPUT ##########
+*.manifest
+*.res
+*.obj
+*.tli
+*.tlh
+
+########## OTHER ##########
+# Ignore backup files
+*~
+*.bak
+
+# Ignore debug profiles
+*.psess
+*.vsp
+*.vspscc
+
+# Ignore test results
+TestResults/
