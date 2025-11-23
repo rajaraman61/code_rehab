@@ -26,10 +26,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="logger.hpp">
+    <ClInclude Include="Logger.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBalance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

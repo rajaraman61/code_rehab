@@ -14,7 +14,6 @@ void Stack::push(int value) {
         return;
     }
     arr[++top] = value;
-    cout << value << " pushed.\n";
 }
 
 int Stack::pop() {
